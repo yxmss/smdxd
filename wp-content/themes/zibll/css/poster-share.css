@@ -1,0 +1,29 @@
+#fx_img .fa{padding:0 10px;font-size:1pc}
+.poster-share{position:fixed;top:0;left:0;z-index:9999990;visibility:hidden;overflow:auto;width:100%;height:100%;opacity:0;transition:all .3s;perspective:500px}
+.share_card{position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;margin:auto;width:280px;height:25pc}
+.share_ok{z-index:9;background:#fff}
+.poster-share.poster-share_xs{visibility:visible;opacity:1}
+.share_bj{position:fixed;width:100%;height:100%;background:rgba(0,0,0,.6);background-image:linear-gradient(135deg,#0d3064 10%,#2b0638 100%);opacity:.9}
+.fx_h{position:absolute;padding:25px 45px;width:100%;background:linear-gradient(to bottom,rgba(0,0,0,.3),rgba(0,0,0,.2),transparent);color:#fff;font-size:38px}
+.fx_h span{display:inline-block}
+.fx_h p:first-child{border-bottom:2px solid #fff}
+.fx_h p{margin:0;text-align:center}
+.fx_img_ap{display:block;overflow:hidden;margin:-2px;height:600px}
+.share_b h4{overflow:hidden;margin:.8em;padding:0 .5em;max-height:2.8em;border-left:8px solid #10a1f0;font-size:40px;line-height:1.4em}
+.fx_loading{position:fixed;z-index:2;padding:6px;width:100%;background:#ff9550;color:#fff;text-align:center;opacity:.9;transition:all .3s}
+.fx_loading .fa{width:30px;font-size:15px}
+.fx_db{position:absolute;right:0;bottom:0;left:0;margin:40px;padding:30px 40px;border:2px dashed #ddd}
+.fx_db .qrcode{display:inline-block}
+.fx_db .qrcode canvas{width:10pc;height:10pc}
+.share_b>p{overflow:hidden;margin:1em;height:4.4em;color:#999;text-indent:2em;font-size:30px;word-break:break-all}
+.fx_h .fx_h p{margin:0;text-align:center}
+.fx_logo{float:right;margin-top:10px;width:360px;text-align:center}
+.fx_logo h5{font-size:25px}
+.fx_logo .logo{float:none;height:75pt}
+.fx_logo .logo img{display:inline-block}
+.fx_logo h5{margin-top:20px;color:#888}
+.fx_img_tp{max-width:100%;min-width:100%;min-height:100%;object-fit:cover}
+.share_b{position:relative;width:860px;height:930pt;background:#fff;transition:all .3s}
+.poster-share .icon-close{position:fixed;top:40px;right:20px;z-index:1;padding:15px;color:#fff;font-size:1pc;cursor:pointer;transition:all .3s}
+@media (max-width:480px){.poster-share .icon-close{top:auto;right:0;bottom:40px;left:0;margin:auto;padding:10px;width:40px;height:40px;border-radius:30px;background:#fff;box-shadow:0 0 15px 0 rgba(0,0,0,.44);color:#888;text-align:center}
+}
